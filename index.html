@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Cybersecurity Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <h1>Mini Cybersecurity Dashboard</h1>
+
+  <div class="dashboard">
+
+    <div class="card">
+      <h2>Login Attempts (Last 7 Days)</h2>
+      <canvas id="loginChart"></canvas>
+    </div>
+
+    <div class="card">
+      <h2>Vulnerabilities Detected</h2>
+      <canvas id="vulnChart"></canvas>
+    </div>
+
+    <div class="card">
+      <h2>Scan Activity</h2>
+      <button id="scanBtn">Run Scan</button>
+      <p id="scanStatus">Idle</p>
+    </div>
+    <div class="card">
+  <h2>Recent Alerts</h2>
+  <ul id="alertsList" class="alerts-list">
+    
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Active Threats</h2>
+  <p id="activeThreats" style="font-size: 2rem; font-weight: bold; color: #ff4d4d;">0</p>
+</div>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
