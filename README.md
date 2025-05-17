@@ -1,0 +1,1 @@
+A responsive and interactive web-based cybersecurity dashboard that simulates real-time security stats like login attempts, vulnerabilities, and scans. Built using HTML, CSS, and JavaScript, with mock data and animated charts via Chart.js.
